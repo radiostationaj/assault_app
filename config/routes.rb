@@ -1,4 +1,18 @@
 AssaultApp::Application.routes.draw do
+  get "pages/home"
+
+  get "pages/shows"
+
+  get "pages/audio"
+
+  get "pages/video"
+
+  get "pages/images"
+
+  get "pages/guitar_theory"
+
+  get "pages/contact"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
